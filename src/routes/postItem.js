@@ -1,4 +1,5 @@
 'use strict';
+
 const express = require('express');
 const app = express();
 const { validate, ValidationError } = require('express-superstruct');
@@ -16,7 +17,6 @@ app.post('/', validate({ id: 'number', name: 'string', keywords: ['string'] }), 
 });
 
 app.use((err, req, res, next) => {
-
     if (err) {
         return res
             .status(400)
