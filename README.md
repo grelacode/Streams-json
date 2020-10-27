@@ -17,8 +17,8 @@ This is a litle REST API to show the powerful NodeJS Streams.
       ``` 
       {
         "id": integer,
-        "name": string,
-        "keywords": [string array]
+        "name": "string",
+        "keywords": ["string array"]
       }
       ```
    
