@@ -12,13 +12,12 @@ This is a litle REST API to show the powerful NodeJS Streams.
   - GET ```localhost:4005/api/:filename``` 
    This request show the power of streams, there are two saple's filename, test.txt and test.pdf. You could put in the file folder another files to test the app.
   - POST ```localhost:4005/api/item```
-   This request receives a JSON file in this format:
+   first validate JSON data types with Superstruct library, and delete the repeats keywords.
+   This request receives a JSON file in the following format:
       ```{
         "id": integer,
         "name": string,
         "keywords": [string array]
-    }```
-
-
-    validate JSON data types with Superstruct library, and delete the repeats keywords.
+         }```
    
+  
