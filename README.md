@@ -17,7 +17,8 @@ This is a litle REST API to show the powerful NodeJS Streams.
         "id": integer,
         "name": string,
         "keywords": [string array]
-    }```
+    }
+```
 
     validate JSON data types with Superstruct library, and delete the repeats keywords.
    
