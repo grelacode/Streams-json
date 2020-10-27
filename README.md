@@ -14,10 +14,12 @@ This is a litle REST API to show the powerful NodeJS Streams.
   - POST ```localhost:4005/api/item```
    first validate JSON data types with Superstruct library, and delete the repeats keywords.
    This request receives a JSON file in the following format:
-      ```{
+      ``` 
+      {
         "id": integer,
         "name": string,
         "keywords": [string array]
-         }```
+      }
+      ```
    
   
